@@ -1,0 +1,264 @@
+/* Importing Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+/*  CSS Reset 
+	Overwrites defaults to normalize styles
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+	box-sizing:border-box;
+}
+p{
+	font-family: 'Exo 2', sans-serif;
+}
+/* End CSS Reset */
+
+/* Start Custom Styles */
+body{
+	overflow:hidden;
+	height:100vh;
+	width:100vw;
+	background:white;
+	position:relative;
+	/*css hack to prevent child's margin-top 
+	from moving parent down*/
+	padding: 1px;
+}
+.container-sizer{
+	height:calc(100vh - 130px);
+	width:calc(100vw - 130px);
+	margin:65px;
+	position:absolute;
+	visibility:hidden;
+	pointer-events:none;	
+}
+.container{
+	height:calc(100vh - 130px);
+	width:calc(100vw - 130px);
+	margin:65px;
+	background:#79C4E1;
+}
+.container-die{
+	background:#383938;
+	transition:all 1s ease-in-out;
+}
+.container-inner{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.sun{
+	width:200px;
+	height:200px;
+	background:rgba(251, 176, 64, 1);
+	box-shadow: 0px 0px 100px 10px #FBB040;
+	position:fixed;
+	right:100px;
+	top:100px;
+	border-radius:50%;
+	z-index:2;
+	opacity:1;
+	transition: all .2s ease-in-out;
+}
+.sun-red{
+	width:200px;
+	height:200px;
+	background:red;
+	position:fixed;
+	right:100px;
+	top:100px;
+	border-radius:50%;
+	z-index:1;
+}
+.sun-ring{
+	width:250px;
+	height:250px;
+	position:fixed;
+	right:75px;
+	top:75px;
+	border-radius:50%;
+	border:4px solid red;
+	background:transparent;
+	opacity:1;
+	transition:all .3s ease-in-out;
+}
+.sun-ring.hide{
+	border:4px solid rgba(251, 176, 64, 0);
+}
+/*invisible elements for size detection*/
+.sneaky{
+	visibility:hidden;
+	pointer-events:none;
+}
+.tree{
+	display:inline-block;
+	position:absolute;
+	z-index:5;
+	background:#E7E8EA;
+	border-left:5px solid #383938;
+	max-height:100%;
+}
+.leaf{
+	position:absolute;
+	width:70px;
+	height:70px;
+	z-index:6;
+}
+/* Easter Egg effects */
+.tree-die{
+	max-height:0%;
+	transition:all 1.5s ease-in-out;
+}
+.leaf-die{
+	top: 80%!important;
+	transition: all 2.5s ease-in-out;
+}
+.trans-leaf{
+	transition: all 4s ease-in-out;
+}
+.hide{
+	display:none!important;
+}
+.ground{
+	height:160px;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background: #17431F;
+}
+.phrase{
+	display:inline-block;
+	position:absolute;
+	background:black;
+	color:white;
+	z-index:10;
+	font-size: 20px;
+	padding: 0px 40px;
+	line-height: 25px;
+	white-space: nowrap;
+}
+.phrase p{
+	cursor:pointer;
+}
+/*hide mobile content*/
+.container-sm{
+	display:none;
+}
+@media screen and (max-width: 768px){
+	/*Pre-existing style adjustments*/
+	.container,
+	.trees,
+	.leaves{
+		display:none;
+	}
+	body{
+		padding:0;
+	}
+	/*remove potential for leaf deletion*/
+	.sun{
+		width:0;
+		height:0;
+	}
+	/* show mobile content */
+	.container-sm{
+		display:block;
+		height:100%;
+		/*top half sky, bottom half ground*/
+		background: linear-gradient(#79C4E1 50%, #17431F 50%);
+	}
+	/* center art on page*/
+	.full-art{
+		width:100%;
+		height:auto;
+		top: 50%;
+		position: relative;
+		transform: translateY(-50%);
+		border-bottom: 2px solid rgb(10,10,10);
+	}
+	/* Leaf + Text styles */
+	.text{
+		width: 155px;
+		height: 140px;
+		left: 45px;
+		top: 55px;		
+		position: absolute;
+		z-index: 10;
+		pointer-events:none;
+		display:table;
+	}
+	.text p{
+		display: table-cell;
+    		vertical-align: middle;
+    		text-align: center;
+	}
+	.texted{
+		position:absolute;
+		display:inline-block;
+		width:250px;
+		height:250px;
+		z-index:10;
+	}
+	.sub-leaf{
+		width:250px;
+		height:250px;
+	}
+	/*sun stuff*/
+	.sm-sun{
+		position:absolute;
+		top: 25px;
+		right: 50px;
+		height: 130px;
+		width: 130px;
+		border-radius:50%;
+		background:rgba(251, 176, 64, 1);
+		z-index:1;
+		cursor:pointer;
+	}
+}

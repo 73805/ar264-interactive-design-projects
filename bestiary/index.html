@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- meta tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta charset="UTF-8">
+	<!-- scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script src="script.js"></script>
+	<!-- styles -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>Pando, Quaking Aspen</title>
+</head>
+<body ng-app="drag" ng-controller="mainController">
+
+	<!-- Mobile Size Content -->
+	<div class="container-sm">
+
+		<div class="sm-sun" ng-click="windBlow('container-sm');"></div>
+		<img class="full-art" ng-src="img/final_aspen_forest.jpg" alt="Seeing the Forest and the Tree">
+		<!-- Repeating for each passage in the text.json file -->
+		<div class="leaf texted" draggable ng-repeat="single in passages" style="top:{{leafTop[$index]}}px; left:{{leafLeft[$index]}}px;">
+			<!-- leaf image at random rotation -->
+			<img class="sub-leaf" ng-src="img/single_leaf.svg" style="transform:rotate({{leafDegs[$index]}}deg);" >
+			<!-- text section -->
+			<div class="text">
+				<p>{{single.passage}}</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Desktop Size Content-->
+	<div class="container-sizer"></div>
+	<div class="container">
+		<!-- Scene Pieces-->
+		<div class="container-inner">
+			<!-- Sun and its details -->
+			<div class="sun"></div>
+			<div class="sun-red"></div>
+			<div class="sun-ring hide"></div>
+			<!-- Tree trunks -->
+			<div class="trees">
+				<!-- Repeater with random left, top, width, and height values. for each element -->
+				<div class="tree" ng-repeat="i in treeIndices" style="bottom:{{treeBottom[i]}}px; left:{{treeLeft[i]}}px; width:{{treeWidth[i]}}px; height:{{treeHeight[i]}}px;"></div>
+			</div>
+			<div class="ground"></div>
+		</div>
+		<!-- Leaves -->
+		<div class="leaves">
+			<!-- Repeater with random left, top, and rotation values for each element -->
+			<img class="leaf" draggable ng-repeat="i in leafIndices" ng-src="img/single_leaf.svg" style="top:{{leafTop[i]}}px; left:{{leafLeft[i]}}px; transform:rotate({{leafDegs[i]}}deg);" >
+		</div>
+		<!-- Text Content -->
+		<div class="phrases">
+			<!-- Repeater with random left, and top values for each element -->
+			<div class="sneaky phrase"><p>A Phrase of average length yes</p></div>
+			<div class="phrase" draggable ng-repeat="single in phrases" ng-click="windBlow('container');" style="top:{{phraseTop[$index]}}px; left:{{phraseLeft[$index]}}px;"><p>{{single.phrase}}</p></div>
+		</div>
+	</div>
+</body>
+</html>
