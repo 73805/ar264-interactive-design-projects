@@ -1,0 +1,81 @@
+[{
+	"colors": ["848384", "3f3a3c", "e9ebe6", "221e1f", "5a5859"],
+	"name": "flipflop",
+	"src": "flipflop.jpg"
+}, {
+	"colors": ["141218", "e2e5e2", "4b4d5d", "787e8b", "2d2d39"],
+	"name": "jeans",
+	"src": "jeans.jpg"
+}, {
+	"colors": ["1d3f45", "092328", "d4b21f", "386369", "c5d7e3"],
+	"name": "jersey",
+	"src": "jersey.jpg"
+}, {
+	"colors": ["170e0c", "d44309", "ec7c3f", "302c29", "df591b"],
+	"name": "kindle",
+	"src": "kindle.jpg"
+}, {
+	"colors": ["a19f9c", "4c4b4d", "7b7674", "d6d7d4", "1a1618"],
+	"name": "laptop",
+	"src": "laptop.jpg"
+}, {
+	"colors": ["e8e5d2", "754d21", "81715a", "a59c87", "2b291d"],
+	"name": "legos",
+	"src": "legos.jpg"
+}, {
+	"colors": ["cdbd6d", "495957", "cfd7df", "2e413b", "9855a2"],
+	"name": "logo",
+	"src": "logo.jpg"
+}, {
+	"colors": ["535557", "8f8374", "3a3535", "d3d2c8", "221b1c"],
+	"name": "remote",
+	"src": "remote.jpg"
+}, {
+	"colors": ["aeaeaa", "e0e0db", "595961", "838285", "303039"],
+	"name": "scarf",
+	"src": "scarf.jpg"
+}, {
+	"colors": ["5e6068", "b8bfc7", "454347", "332d2d", "818892"],
+	"name": "seal",
+	"src": "seal.jpg"
+}, {
+	"colors": ["c37c05", "b6a49b", "c8cac6", "a04d06", "bd1009"],
+	"name": "shelly",
+	"src": "shelly.jpg"
+}, {
+	"colors": ["cc907c", "b67160", "935042", "e3b6a5", "692b1f"],
+	"name": "shirt",
+	"src": "shirt.jpg"
+}, {
+	"colors": ["d1d6d5", "39251c", "afaaa3", "8c817c", "69554e"],
+	"name": "slipper",
+	"src": "slipper.jpg"
+}, {
+	"colors": ["310c0f", "731e25", "d5d4d2", "bb626b", "9b3741"],
+	"name": "sneaker",
+	"src": "sneaker.jpg"
+}, {
+	"colors": ["742c31", "e97579", "8a837f", "be494f", "d1c3be"],
+	"name": "socks",
+	"src": "socks.jpg"
+}, {
+	"colors": ["919191", "3a383a", "646364", "d0d1cd", "151315"],
+	"name": "speaker",
+	"src": "speaker.jpg"
+}, {
+	"colors": ["666364", "3d3838", "9a9ea3", "161210", "e9eceb"],
+	"name": "suit",
+	"src": "suit.jpg"
+}, {
+	"colors": ["7b5b79", "351a37", "543655", "dbdcd3", "b5b4af"],
+	"name": "sweater",
+	"src": "sweater.jpg"
+}, {
+	"colors": ["37425b", "909caa", "13192e", "e1e0da", "5e6c84"],
+	"name": "ties",
+	"src": "ties.jpg"
+}, {
+	"colors": ["0c1c54", "b71707", "254990", "d0d1ce", "ac9f9a"],
+	"name": "union",
+	"src": "union.jpg"
+}]

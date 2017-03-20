@@ -1,0 +1,161 @@
+/* Importing Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+/*  CSS Reset 
+	Overwrites defaults to normalize styles
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+	box-sizing:border-box;
+}
+p{
+	font-family: 'Roboto';
+}
+/* End CSS Reset */
+
+body{
+	height:100vh;
+	width:100vw;
+	overflow-x:hidden;
+}
+.view-container{
+	height:100%;
+	width:100%;
+}
+*::selection{
+	
+}
+/*Home Page Styles*/
+.content-width{
+	width:100%;
+	margin:0 auto;
+}
+/* Grid of Square styles*/
+.grid{
+	width:100%;
+	font-size:0;
+}
+.sq-3{
+	display:inline-block;
+	font-size:initial;
+}
+.sq-3{
+	position:relative;
+	width: 25%;
+	padding-bottom: 25%;
+	overflow:hidden;
+	cursor:pointer;
+	transition: all .15s ease-in-out;
+}
+.sq-3:hover{
+	opacity:.9;
+}
+.sq-content{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	padding: 5%;
+	background:blue;
+}
+/*Individual Item Styles*/
+.item-container{
+	width:100%;
+	height:100%;
+	font-size:0px;
+	overflow-y:hidden;
+}
+.item-img, .title, .colors{
+	display:inline-block;
+	vertical-align:top;
+	font-size:initial;
+}
+.item-img{
+	/* 100 - (5*2)*/
+	height: 100vh;
+	width: 100vh;
+}
+.title{
+	width:175px;
+	height:100%;
+	position:relative;
+}
+.title h1{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:
+		translateX(-50%) 
+		translateY(-50%) 
+		rotate(-90deg);
+	font-size: 72px;
+	color: rgb(30,30,30);
+	text-transform:uppercase;
+	font-family:sans-serif;
+}
+.colors{
+	width:calc(100% - 175px - 100vh);
+	height:100%;
+	overflow:hidden;
+}
+.color-canvas{
+	width:100%;
+	height:100%;
+}
+.color-bar{
+	transform: rotate(-30deg);
+	width: 140%;
+	height: 140%;
+	left: -20%;
+	top: -20%;
+	position: absolute;
+}
+.button{
+	position:absolute;
+	bottom:10px;
+	left:10px;
+}
