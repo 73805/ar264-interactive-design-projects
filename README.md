@@ -10,3 +10,5 @@ Text: ['My Lord's Writing All the Time'](https://www.loc.gov/item/sm1880.18069/)
 Creating modern interpretations of the medeviel bestiary. Introducing Illustrator.
 Beast: Pando, the clonal colony of quaking aspen in Colorado.
 ### Project 3: Collections
+Presenting interactive collections and exploring categorization.
+Collection/Categorization: Belongings and color spaces.
