@@ -1,81 +1,1298 @@
-[{
-	"colors": ["848384", "3f3a3c", "e9ebe6", "221e1f", "5a5859"],
-	"name": "flipflop",
-	"src": "flipflop.jpg"
-}, {
-	"colors": ["141218", "e2e5e2", "4b4d5d", "787e8b", "2d2d39"],
-	"name": "jeans",
-	"src": "jeans.jpg"
-}, {
-	"colors": ["1d3f45", "092328", "d4b21f", "386369", "c5d7e3"],
-	"name": "jersey",
-	"src": "jersey.jpg"
-}, {
-	"colors": ["170e0c", "d44309", "ec7c3f", "302c29", "df591b"],
-	"name": "kindle",
-	"src": "kindle.jpg"
-}, {
-	"colors": ["a19f9c", "4c4b4d", "7b7674", "d6d7d4", "1a1618"],
-	"name": "laptop",
-	"src": "laptop.jpg"
-}, {
-	"colors": ["e8e5d2", "754d21", "81715a", "a59c87", "2b291d"],
-	"name": "legos",
-	"src": "legos.jpg"
-}, {
-	"colors": ["cdbd6d", "495957", "cfd7df", "2e413b", "9855a2"],
-	"name": "logo",
-	"src": "logo.jpg"
-}, {
-	"colors": ["535557", "8f8374", "3a3535", "d3d2c8", "221b1c"],
-	"name": "remote",
-	"src": "remote.jpg"
-}, {
-	"colors": ["aeaeaa", "e0e0db", "595961", "838285", "303039"],
-	"name": "scarf",
-	"src": "scarf.jpg"
-}, {
-	"colors": ["5e6068", "b8bfc7", "454347", "332d2d", "818892"],
-	"name": "seal",
-	"src": "seal.jpg"
-}, {
-	"colors": ["c37c05", "b6a49b", "c8cac6", "a04d06", "bd1009"],
-	"name": "shelly",
-	"src": "shelly.jpg"
-}, {
-	"colors": ["cc907c", "b67160", "935042", "e3b6a5", "692b1f"],
-	"name": "shirt",
-	"src": "shirt.jpg"
-}, {
-	"colors": ["d1d6d5", "39251c", "afaaa3", "8c817c", "69554e"],
-	"name": "slipper",
-	"src": "slipper.jpg"
-}, {
-	"colors": ["310c0f", "731e25", "d5d4d2", "bb626b", "9b3741"],
-	"name": "sneaker",
-	"src": "sneaker.jpg"
-}, {
-	"colors": ["742c31", "e97579", "8a837f", "be494f", "d1c3be"],
-	"name": "socks",
-	"src": "socks.jpg"
-}, {
-	"colors": ["919191", "3a383a", "646364", "d0d1cd", "151315"],
-	"name": "speaker",
-	"src": "speaker.jpg"
-}, {
-	"colors": ["666364", "3d3838", "9a9ea3", "161210", "e9eceb"],
-	"name": "suit",
-	"src": "suit.jpg"
-}, {
-	"colors": ["7b5b79", "351a37", "543655", "dbdcd3", "b5b4af"],
-	"name": "sweater",
-	"src": "sweater.jpg"
-}, {
-	"colors": ["37425b", "909caa", "13192e", "e1e0da", "5e6c84"],
-	"name": "ties",
-	"src": "ties.jpg"
-}, {
-	"colors": ["0c1c54", "b71707", "254990", "d0d1ce", "ac9f9a"],
-	"name": "union",
-	"src": "union.jpg"
-}]
+[  
+   {  
+      "src":"boxes.jpg",
+      "color_data":[  
+         {  
+            "c_name":"sienna",
+            "hex":"8c6448",
+            "text_color":"white",
+            "cmyk":"0.00, 28.57, 48.57, 45.10",
+            "rgb":"140, 100, 72",
+            "pantone_name":"876 C"
+         },
+         {  
+            "c_name":"saddlebrown",
+            "hex":"754c37",
+            "text_color":"white",
+            "cmyk":"0.00, 35.04, 52.99, 54.12",
+            "rgb":"117, 76, 55",
+            "pantone_name":"7568 C"
+         },
+         {  
+            "c_name":"darkgray",
+            "hex":"afa195",
+            "text_color":"white",
+            "cmyk":"0.00, 8.00, 14.86, 31.37",
+            "rgb":"175, 161, 149",
+            "pantone_name":"Warm Gray 5 C"
+         },
+         {  
+            "c_name":"grey",
+            "hex":"997c67",
+            "text_color":"white",
+            "cmyk":"0.00, 18.95, 32.68, 40.00",
+            "rgb":"153, 124, 103",
+            "pantone_name":"7504 C"
+         },
+         {  
+            "c_name":"saddlebrown",
+            "hex":"5c3323",
+            "text_color":"white",
+            "cmyk":"0.00, 44.57, 61.96, 63.92",
+            "rgb":"92, 51, 35",
+            "pantone_name":"4695 C"
+         }
+      ],
+      "name":"boxes",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=8c6448%3B754c37%3Bafa195%3B997c67%3B5c3323%3B",
+      "flat_hex":[  
+         "8c6448",
+         "754c37",
+         "afa195",
+         "997c67",
+         "5c3323"
+      ]
+   },
+   {  
+      "src":"cookie.jpg",
+      "color_data":[  
+         {  
+            "c_name":"peru",
+            "hex":"a9865a",
+            "text_color":"white",
+            "cmyk":"0.00, 20.71, 46.75, 33.73",
+            "rgb":"169, 134, 90",
+            "pantone_name":"4645 C"
+         },
+         {  
+            "c_name":"tan",
+            "hex":"c0a684",
+            "text_color":"white",
+            "cmyk":"0.00, 13.54, 31.25, 24.71",
+            "rgb":"192, 166, 132",
+            "pantone_name":"7521 C"
+         },
+         {  
+            "c_name":"black",
+            "hex":"381c0f",
+            "text_color":"white",
+            "cmyk":"0.00, 50.00, 73.21, 78.04",
+            "rgb":"56, 28, 15",
+            "pantone_name":"Black 4 C"
+         },
+         {  
+            "c_name":"sienna",
+            "hex":"92693d",
+            "text_color":"white",
+            "cmyk":"0.00, 28.08, 58.22, 42.75",
+            "rgb":"146, 105, 61",
+            "pantone_name":"4635 C"
+         },
+         {  
+            "c_name":"saddlebrown",
+            "hex":"6d4627",
+            "text_color":"white",
+            "cmyk":"0.00, 35.78, 64.22, 57.25",
+            "rgb":"109, 70, 39",
+            "pantone_name":"2320 C"
+         }
+      ],
+      "name":"cookie",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=a9865a%3Bc0a684%3B381c0f%3B92693d%3B6d4627%3B",
+      "flat_hex":[  
+         "a9865a",
+         "c0a684",
+         "381c0f",
+         "92693d",
+         "6d4627"
+      ]
+   },
+   {  
+      "src":"every j.jpg",
+      "color_data":[  
+         {  
+            "c_name":"cadetblue",
+            "hex":"58a9c2",
+            "text_color":"white",
+            "cmyk":"54.64, 12.89, 0.00, 23.92",
+            "rgb":"88, 169, 194",
+            "pantone_name":"7709 C"
+         },
+         {  
+            "c_name":"darkslategray",
+            "hex":"262a44",
+            "text_color":"white",
+            "cmyk":"44.12, 38.24, 0.00, 73.33",
+            "rgb":"38, 42, 68",
+            "pantone_name":"533 C"
+         },
+         {  
+            "c_name":"peru",
+            "hex":"bb794c",
+            "text_color":"white",
+            "cmyk":"0.00, 35.29, 59.36, 26.67",
+            "rgb":"187, 121, 76",
+            "pantone_name":"729 C"
+         },
+         {  
+            "c_name":"darkorchid",
+            "hex":"9c52a3",
+            "text_color":"white",
+            "cmyk":"4.29, 49.69, 0.00, 36.08",
+            "rgb":"156, 82, 163",
+            "pantone_name":"7655 C"
+         },
+         {  
+            "c_name":"palegreen",
+            "hex":"bbe89c",
+            "text_color":"white",
+            "cmyk":"19.40, 0.00, 32.76, 9.02",
+            "rgb":"187, 232, 156",
+            "pantone_name":"7486 C"
+         }
+      ],
+      "name":"every j",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=58a9c2%3B262a44%3Bbb794c%3B9c52a3%3Bbbe89c%3B",
+      "flat_hex":[  
+         "58a9c2",
+         "262a44",
+         "bb794c",
+         "9c52a3",
+         "bbe89c"
+      ]
+   },
+   {  
+      "src":"flip flop.jpg",
+      "color_data":[  
+         {  
+            "c_name":"linen",
+            "hex":"e9ebe6",
+            "text_color":"black",
+            "cmyk":"0.85, 0.00, 2.13, 7.84",
+            "rgb":"233, 235, 230",
+            "pantone_name":"663 C"
+         },
+         {  
+            "c_name":"black",
+            "hex":"231e1f",
+            "text_color":"white",
+            "cmyk":"0.00, 14.29, 11.43, 86.27",
+            "rgb":"35, 30, 31",
+            "pantone_name":"Neutral Black C"
+         },
+         {  
+            "c_name":"grey",
+            "hex":"848383",
+            "text_color":"white",
+            "cmyk":"0.00, 0.76, 0.76, 48.24",
+            "rgb":"132, 131, 131",
+            "pantone_name":"2332 C"
+         },
+         {  
+            "c_name":"dimgrey",
+            "hex":"595759",
+            "text_color":"white",
+            "cmyk":"0.00, 2.25, 0.00, 65.10",
+            "rgb":"89, 87, 89",
+            "pantone_name":"425 C"
+         },
+         {  
+            "c_name":"darkslategray",
+            "hex":"3f3a3c",
+            "text_color":"white",
+            "cmyk":"0.00, 7.94, 4.76, 75.29",
+            "rgb":"63, 58, 60",
+            "pantone_name":"Black 7 C"
+         }
+      ],
+      "name":"flip flop",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=e9ebe6%3B231e1f%3B848383%3B595759%3B3f3a3c%3B",
+      "flat_hex":[  
+         "e9ebe6",
+         "231e1f",
+         "848383",
+         "595759",
+         "3f3a3c"
+      ]
+   },
+   {  
+      "src":"hat.jpg",
+      "color_data":[  
+         {  
+            "c_name":"darkgray",
+            "hex":"aea99e",
+            "text_color":"white",
+            "cmyk":"0.00, 2.87, 9.20, 31.76",
+            "rgb":"174, 169, 158",
+            "pantone_name":"401 C"
+         },
+         {  
+            "c_name":"lightgray",
+            "hex":"d2d3cb",
+            "text_color":"black",
+            "cmyk":"0.47, 0.00, 3.79, 17.25",
+            "rgb":"210, 211, 203",
+            "pantone_name":"Cool Gray 2 C"
+         },
+         {  
+            "c_name":"darkolivegreen",
+            "hex":"6b5645",
+            "text_color":"white",
+            "cmyk":"0.00, 19.63, 35.51, 58.04",
+            "rgb":"107, 86, 69",
+            "pantone_name":"7518 C"
+         },
+         {  
+            "c_name":"grey",
+            "hex":"897966",
+            "text_color":"white",
+            "cmyk":"0.00, 11.68, 25.55, 46.27",
+            "rgb":"137, 121, 102",
+            "pantone_name":"2326 C"
+         },
+         {  
+            "c_name":"black",
+            "hex":"321f1b",
+            "text_color":"white",
+            "cmyk":"0.00, 38.00, 46.00, 80.39",
+            "rgb":"50, 31, 27",
+            "pantone_name":"Black 4 C"
+         }
+      ],
+      "name":"hat",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=aea99e%3Bd2d3cb%3B6b5645%3B897966%3B321f1b%3B",
+      "flat_hex":[  
+         "aea99e",
+         "d2d3cb",
+         "6b5645",
+         "897966",
+         "321f1b"
+      ]
+   },
+   {  
+      "src":"jeans.jpg",
+      "color_data":[  
+         {  
+            "c_name":"gainsboro",
+            "hex":"e2e5e2",
+            "text_color":"black",
+            "cmyk":"1.31, 0.00, 1.31, 10.20",
+            "rgb":"226, 229, 226",
+            "pantone_name":"663 C"
+         },
+         {  
+            "c_name":"darkslategray",
+            "hex":"2d2d3a",
+            "text_color":"white",
+            "cmyk":"22.41, 22.41, 0.00, 77.25",
+            "rgb":"45, 45, 58",
+            "pantone_name":"447 C"
+         },
+         {  
+            "c_name":"black",
+            "hex":"141219",
+            "text_color":"white",
+            "cmyk":"20.00, 28.00, 0.00, 90.20",
+            "rgb":"20, 18, 25",
+            "pantone_name":"Black 6 C"
+         },
+         {  
+            "c_name":"darkslategray",
+            "hex":"4b4e5d",
+            "text_color":"white",
+            "cmyk":"19.35, 16.13, 0.00, 63.53",
+            "rgb":"75, 78, 93",
+            "pantone_name":"7540 C"
+         },
+         {  
+            "c_name":"slategray",
+            "hex":"787f8c",
+            "text_color":"white",
+            "cmyk":"14.29, 9.29, 0.00, 45.10",
+            "rgb":"120, 127, 140",
+            "pantone_name":"2360 C"
+         }
+      ],
+      "name":"jeans",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=e2e5e2%3B2d2d3a%3B141219%3B4b4e5d%3B787f8c%3B",
+      "flat_hex":[  
+         "e2e5e2",
+         "2d2d3a",
+         "141219",
+         "4b4e5d",
+         "787f8c"
+      ]
+   },
+   {  
+      "src":"jersey.jpg",
+      "color_data":[  
+         {  
+            "c_name":"darkslategray",
+            "hex":"204348",
+            "text_color":"white",
+            "cmyk":"55.56, 6.94, 0.00, 71.76",
+            "rgb":"32, 67, 72",
+            "pantone_name":"7546 C"
+         },
+         {  
+            "c_name":"goldenrod",
+            "hex":"d4b21f",
+            "text_color":"white",
+            "cmyk":"0.00, 16.04, 85.38, 16.86",
+            "rgb":"212, 178, 31",
+            "pantone_name":"7752 C"
+         },
+         {  
+            "c_name":"darkslategray",
+            "hex":"3b676d",
+            "text_color":"white",
+            "cmyk":"45.87, 5.50, 0.00, 57.25",
+            "rgb":"59, 103, 109",
+            "pantone_name":"2213 C"
+         },
+         {  
+            "c_name":"black",
+            "hex":"0b252b",
+            "text_color":"white",
+            "cmyk":"74.42, 13.95, 0.00, 83.14",
+            "rgb":"11, 37, 43",
+            "pantone_name":"5463 C"
+         },
+         {  
+            "c_name":"lightgray",
+            "hex":"c5d7e3",
+            "text_color":"black",
+            "cmyk":"13.22, 5.29, 0.00, 10.98",
+            "rgb":"197, 215, 227",
+            "pantone_name":"643 C"
+         }
+      ],
+      "name":"jersey",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=204348%3Bd4b21f%3B3b676d%3B0b252b%3Bc5d7e3%3B",
+      "flat_hex":[  
+         "204348",
+         "d4b21f",
+         "3b676d",
+         "0b252b",
+         "c5d7e3"
+      ]
+   },
+   {  
+      "src":"kindle.jpg",
+      "color_data":[  
+         {  
+            "c_name":"coral",
+            "hex":"ef874c",
+            "text_color":"white",
+            "cmyk":"0.00, 43.51, 68.20, 6.27",
+            "rgb":"239, 135, 76",
+            "pantone_name":"2024 C"
+         },
+         {  
+            "c_name":"darkslategray",
+            "hex":"292422",
+            "text_color":"white",
+            "cmyk":"0.00, 12.20, 17.07, 83.92",
+            "rgb":"41, 36, 34",
+            "pantone_name":"Neutral Black C"
+         },
+         {  
+            "c_name":"orangered",
+            "hex":"d13f07",
+            "text_color":"white",
+            "cmyk":"0.00, 69.86, 96.65, 18.04",
+            "rgb":"209, 63, 7",
+            "pantone_name":"2349 C"
+         },
+         {  
+            "c_name":"chocolate",
+            "hex":"dc4e0f",
+            "text_color":"white",
+            "cmyk":"0.00, 64.55, 93.18, 13.73",
+            "rgb":"220, 78, 15",
+            "pantone_name":"166 C"
+         },
+         {  
+            "c_name":"chocolate",
+            "hex":"e16123",
+            "text_color":"white",
+            "cmyk":"0.00, 56.89, 84.44, 11.76",
+            "rgb":"225, 97, 35",
+            "pantone_name":"7579 C"
+         }
+      ],
+      "name":"kindle",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=ef874c%3B292422%3Bd13f07%3Bdc4e0f%3Be16123%3B",
+      "flat_hex":[  
+         "ef874c",
+         "292422",
+         "d13f07",
+         "dc4e0f",
+         "e16123"
+      ]
+   },
+   {  
+      "src":"laptop.jpg",
+      "color_data":[  
+         {  
+            "c_name":"black",
+            "hex":"1a1618",
+            "text_color":"white",
+            "cmyk":"0.00, 15.38, 7.69, 89.80",
+            "rgb":"26, 22, 24",
+            "pantone_name":"Black 6 C"
+         },
+         {  
+            "c_name":"grey",
+            "hex":"7c7775",
+            "text_color":"white",
+            "cmyk":"0.00, 4.03, 5.65, 51.37",
+            "rgb":"124, 119, 117",
+            "pantone_name":"416 C"
+         },
+         {  
+            "c_name":"darkgray",
+            "hex":"a3a19e",
+            "text_color":"white",
+            "cmyk":"0.00, 1.23, 3.07, 36.08",
+            "rgb":"163, 161, 158",
+            "pantone_name":"422 C"
+         },
+         {  
+            "c_name":"darkslategray",
+            "hex":"4d4c4d",
+            "text_color":"white",
+            "cmyk":"0.00, 1.30, 0.00, 69.80",
+            "rgb":"77, 76, 77",
+            "pantone_name":"2336 C"
+         },
+         {  
+            "c_name":"lightgray",
+            "hex":"d7d8d5",
+            "text_color":"black",
+            "cmyk":"0.46, 0.00, 1.39, 15.29",
+            "rgb":"215, 216, 213",
+            "pantone_name":"Cool Gray 1 C"
+         }
+      ],
+      "name":"laptop",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=1a1618%3B7c7775%3Ba3a19e%3B4d4c4d%3Bd7d8d5%3B",
+      "flat_hex":[  
+         "1a1618",
+         "7c7775",
+         "a3a19e",
+         "4d4c4d",
+         "d7d8d5"
+      ]
+   },
+   {  
+      "src":"legos.jpg",
+      "color_data":[  
+         {  
+            "c_name":"rosybrown",
+            "hex":"a59c88",
+            "text_color":"white",
+            "cmyk":"0.00, 5.45, 17.58, 35.29",
+            "rgb":"165, 156, 136",
+            "pantone_name":"7536 C"
+         },
+         {  
+            "c_name":"dimgrey",
+            "hex":"81715a",
+            "text_color":"white",
+            "cmyk":"0.00, 12.40, 30.23, 49.41",
+            "rgb":"129, 113, 90",
+            "pantone_name":"7497 C"
+         },
+         {  
+            "c_name":"darkslategray",
+            "hex":"2b291d",
+            "text_color":"white",
+            "cmyk":"0.00, 4.65, 32.56, 83.14",
+            "rgb":"43, 41, 29",
+            "pantone_name":"Black 4 C"
+         },
+         {  
+            "c_name":"gainsboro",
+            "hex":"e9e5d2",
+            "text_color":"black",
+            "cmyk":"0.00, 1.72, 9.87, 8.63",
+            "rgb":"233, 229, 210",
+            "pantone_name":"7604 C"
+         },
+         {  
+            "c_name":"saddlebrown",
+            "hex":"744d21",
+            "text_color":"white",
+            "cmyk":"0.00, 33.62, 71.55, 54.51",
+            "rgb":"116, 77, 33",
+            "pantone_name":"1405 C"
+         }
+      ],
+      "name":"legos",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=a59c88%3B81715a%3B2b291d%3Be9e5d2%3B744d21%3B",
+      "flat_hex":[  
+         "a59c88",
+         "81715a",
+         "2b291d",
+         "e9e5d2",
+         "744d21"
+      ]
+   },
+   {  
+      "src":"remote.jpg",
+      "color_data":[  
+         {  
+            "c_name":"dimgrey",
+            "hex":"535556",
+            "text_color":"white",
+            "cmyk":"3.49, 1.16, 0.00, 66.27",
+            "rgb":"83, 85, 86",
+            "pantone_name":"Cool Gray 11 C"
+         },
+         {  
+            "c_name":"grey",
+            "hex":"8f8374",
+            "text_color":"white",
+            "cmyk":"0.00, 8.39, 18.88, 43.92",
+            "rgb":"143, 131, 116",
+            "pantone_name":"Warm Gray 8 C"
+         },
+         {  
+            "c_name":"black",
+            "hex":"211a1c",
+            "text_color":"white",
+            "cmyk":"0.00, 21.21, 15.15, 87.06",
+            "rgb":"33, 26, 28",
+            "pantone_name":"Neutral Black C"
+         },
+         {  
+            "c_name":"lightgray",
+            "hex":"d3d2c8",
+            "text_color":"black",
+            "cmyk":"0.00, 0.47, 5.21, 17.25",
+            "rgb":"211, 210, 200",
+            "pantone_name":"7527 C"
+         },
+         {  
+            "c_name":"darkslategray",
+            "hex":"393434",
+            "text_color":"white",
+            "cmyk":"0.00, 8.77, 8.77, 77.65",
+            "rgb":"57, 52, 52",
+            "pantone_name":"Black 7 C"
+         }
+      ],
+      "name":"remote",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=535556%3B8f8374%3B211a1c%3Bd3d2c8%3B393434%3B",
+      "flat_hex":[  
+         "535556",
+         "8f8374",
+         "211a1c",
+         "d3d2c8",
+         "393434"
+      ]
+   },
+   {  
+      "src":"seal.jpg",
+      "color_data":[  
+         {  
+            "c_name":"darkslategray",
+            "hex":"444246",
+            "text_color":"white",
+            "cmyk":"2.86, 5.71, 0.00, 72.55",
+            "rgb":"68, 66, 70",
+            "pantone_name":"446 C"
+         },
+         {  
+            "c_name":"silver",
+            "hex":"b7bec6",
+            "text_color":"black",
+            "cmyk":"7.58, 4.04, 0.00, 22.35",
+            "rgb":"183, 190, 198",
+            "pantone_name":"441 C"
+         },
+         {  
+            "c_name":"dimgrey",
+            "hex":"5d5f67",
+            "text_color":"white",
+            "cmyk":"9.71, 7.77, 0.00, 59.61",
+            "rgb":"93, 95, 103",
+            "pantone_name":"Cool Gray 10 C"
+         },
+         {  
+            "c_name":"lightslategrey",
+            "hex":"808791",
+            "text_color":"white",
+            "cmyk":"11.72, 6.90, 0.00, 43.14",
+            "rgb":"128, 135, 145",
+            "pantone_name":"430 C"
+         },
+         {  
+            "c_name":"darkslategray",
+            "hex":"332d2d",
+            "text_color":"white",
+            "cmyk":"0.00, 11.76, 11.76, 80.00",
+            "rgb":"51, 45, 45",
+            "pantone_name":"440 C"
+         }
+      ],
+      "name":"seal",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=444246%3Bb7bec6%3B5d5f67%3B808791%3B332d2d%3B",
+      "flat_hex":[  
+         "444246",
+         "b7bec6",
+         "5d5f67",
+         "808791",
+         "332d2d"
+      ]
+   },
+   {  
+      "src":"shelly.jpg",
+      "color_data":[  
+         {  
+            "c_name":"firebrick",
+            "hex":"bd1009",
+            "text_color":"white",
+            "cmyk":"0.00, 91.53, 95.24, 25.88",
+            "rgb":"189, 16, 9",
+            "pantone_name":"2350 C"
+         },
+         {  
+            "c_name":"darkgoldenrod",
+            "hex":"c27b05",
+            "text_color":"white",
+            "cmyk":"0.00, 36.60, 97.42, 23.92",
+            "rgb":"194, 123, 5",
+            "pantone_name":"145 C"
+         },
+         {  
+            "c_name":"darkgray",
+            "hex":"b6a59c",
+            "text_color":"white",
+            "cmyk":"0.00, 9.34, 14.29, 28.63",
+            "rgb":"182, 165, 156",
+            "pantone_name":"7529 C"
+         },
+         {  
+            "c_name":"saddlebrown",
+            "hex":"9f4b07",
+            "text_color":"white",
+            "cmyk":"0.00, 52.83, 95.60, 37.65",
+            "rgb":"159, 75, 7",
+            "pantone_name":"1535 C"
+         },
+         {  
+            "c_name":"silver",
+            "hex":"c8cac6",
+            "text_color":"black",
+            "cmyk":"0.99, 0.00, 1.98, 20.78",
+            "rgb":"200, 202, 198",
+            "pantone_name":"Cool Gray 3 C"
+         }
+      ],
+      "name":"shelly",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=bd1009%3Bc27b05%3Bb6a59c%3B9f4b07%3Bc8cac6%3B",
+      "flat_hex":[  
+         "bd1009",
+         "c27b05",
+         "b6a59c",
+         "9f4b07",
+         "c8cac6"
+      ]
+   },
+   {  
+      "src":"shirt.jpg",
+      "color_data":[  
+         {  
+            "c_name":"indianred",
+            "hex":"b46f5e",
+            "text_color":"white",
+            "cmyk":"0.00, 38.33, 47.78, 29.41",
+            "rgb":"180, 111, 94",
+            "pantone_name":"7522 C"
+         },
+         {  
+            "c_name":"tan",
+            "hex":"e3b5a4",
+            "text_color":"white",
+            "cmyk":"0.00, 20.26, 27.75, 10.98",
+            "rgb":"227, 181, 164",
+            "pantone_name":"7513 C"
+         },
+         {  
+            "c_name":"saddlebrown",
+            "hex":"67291d",
+            "text_color":"white",
+            "cmyk":"0.00, 60.19, 71.84, 59.61",
+            "rgb":"103, 41, 29",
+            "pantone_name":"483 C"
+         },
+         {  
+            "c_name":"rosybrown",
+            "hex":"cb8f7b",
+            "text_color":"white",
+            "cmyk":"0.00, 29.56, 39.41, 20.39",
+            "rgb":"203, 143, 123",
+            "pantone_name":"4655 C"
+         },
+         {  
+            "c_name":"sienna",
+            "hex":"904e40",
+            "text_color":"white",
+            "cmyk":"0.00, 45.83, 55.56, 43.53",
+            "rgb":"144, 78, 64",
+            "pantone_name":"7581 C"
+         }
+      ],
+      "name":"shirt",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=b46f5e%3Be3b5a4%3B67291d%3Bcb8f7b%3B904e40%3B",
+      "flat_hex":[  
+         "b46f5e",
+         "e3b5a4",
+         "67291d",
+         "cb8f7b",
+         "904e40"
+      ]
+   },
+   {  
+      "src":"slipper.jpg",
+      "color_data":[  
+         {  
+            "c_name":"darkslategray",
+            "hex":"39251c",
+            "text_color":"white",
+            "cmyk":"0.00, 35.09, 50.88, 77.65",
+            "rgb":"57, 37, 28",
+            "pantone_name":"Black 4 C"
+         },
+         {  
+            "c_name":"grey",
+            "hex":"8c817c",
+            "text_color":"white",
+            "cmyk":"0.00, 7.86, 11.43, 45.10",
+            "rgb":"140, 129, 124",
+            "pantone_name":"Warm Gray 8 C"
+         },
+         {  
+            "c_name":"darkgray",
+            "hex":"afaaa3",
+            "text_color":"white",
+            "cmyk":"0.00, 2.86, 6.86, 31.37",
+            "rgb":"175, 170, 163",
+            "pantone_name":"2331 C"
+         },
+         {  
+            "c_name":"dimgrey",
+            "hex":"69554e",
+            "text_color":"white",
+            "cmyk":"0.00, 19.05, 25.71, 58.82",
+            "rgb":"105, 85, 78",
+            "pantone_name":"7616 C"
+         },
+         {  
+            "c_name":"lightgray",
+            "hex":"d1d6d5",
+            "text_color":"black",
+            "cmyk":"2.34, 0.00, 0.47, 16.08",
+            "rgb":"209, 214, 213",
+            "pantone_name":"427 C"
+         }
+      ],
+      "name":"slipper",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=39251c%3B8c817c%3Bafaaa3%3B69554e%3Bd1d6d5%3B",
+      "flat_hex":[  
+         "39251c",
+         "8c817c",
+         "afaaa3",
+         "69554e",
+         "d1d6d5"
+      ]
+   },
+   {  
+      "src":"smash bros.jpg",
+      "color_data":[  
+         {  
+            "c_name":"powderblue",
+            "hex":"aeebd0",
+            "text_color":"white",
+            "cmyk":"25.96, 0.00, 11.49, 7.84",
+            "rgb":"174, 235, 208",
+            "pantone_name":"331 C"
+         },
+         {  
+            "c_name":"seagreen",
+            "hex":"46a84d",
+            "text_color":"white",
+            "cmyk":"58.33, 0.00, 54.17, 34.12",
+            "rgb":"70, 168, 77",
+            "pantone_name":"7738 C"
+         },
+         {  
+            "c_name":"royalblue",
+            "hex":"2b58b8",
+            "text_color":"white",
+            "cmyk":"76.63, 52.17, 0.00, 27.84",
+            "rgb":"43, 88, 184",
+            "pantone_name":"2131 C"
+         },
+         {  
+            "c_name":"black",
+            "hex":"241923",
+            "text_color":"white",
+            "cmyk":"0.00, 30.56, 2.78, 85.88",
+            "rgb":"36, 25, 35",
+            "pantone_name":"Neutral Black C"
+         },
+         {  
+            "c_name":"chocolate",
+            "hex":"d15f1c",
+            "text_color":"white",
+            "cmyk":"0.00, 54.55, 86.60, 18.04",
+            "rgb":"209, 95, 28",
+            "pantone_name":"1595 C"
+         }
+      ],
+      "name":"smash bros",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=aeebd0%3B46a84d%3B2b58b8%3B241923%3Bd15f1c%3B",
+      "flat_hex":[  
+         "aeebd0",
+         "46a84d",
+         "2b58b8",
+         "241923",
+         "d15f1c"
+      ]
+   },
+   {  
+      "src":"sneaker.jpg",
+      "color_data":[  
+         {  
+            "c_name":"brown",
+            "hex":"98353e",
+            "text_color":"white",
+            "cmyk":"0.00, 65.13, 59.21, 40.39",
+            "rgb":"152, 53, 62",
+            "pantone_name":"492 C"
+         },
+         {  
+            "c_name":"black",
+            "hex":"2c0b0e",
+            "text_color":"white",
+            "cmyk":"0.00, 75.00, 68.18, 82.75",
+            "rgb":"44, 11, 14",
+            "pantone_name":"Black 4 C"
+         },
+         {  
+            "c_name":"maroon",
+            "hex":"6f1c23",
+            "text_color":"white",
+            "cmyk":"0.00, 74.77, 68.47, 56.47",
+            "rgb":"111, 28, 35",
+            "pantone_name":"188 C"
+         },
+         {  
+            "c_name":"indianred",
+            "hex":"ba6069",
+            "text_color":"white",
+            "cmyk":"0.00, 48.39, 43.55, 27.06",
+            "rgb":"186, 96, 105",
+            "pantone_name":"2342 C"
+         },
+         {  
+            "c_name":"lightgray",
+            "hex":"d5d4d2",
+            "text_color":"black",
+            "cmyk":"0.00, 0.47, 1.41, 16.47",
+            "rgb":"213, 212, 210",
+            "pantone_name":"427 C"
+         }
+      ],
+      "name":"sneaker",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=98353e%3B2c0b0e%3B6f1c23%3Bba6069%3Bd5d4d2%3B",
+      "flat_hex":[  
+         "98353e",
+         "2c0b0e",
+         "6f1c23",
+         "ba6069",
+         "d5d4d2"
+      ]
+   },
+   {  
+      "src":"socks.jpg",
+      "color_data":[  
+         {  
+            "c_name":"silver",
+            "hex":"d1c3be",
+            "text_color":"black",
+            "cmyk":"0.00, 6.70, 9.09, 18.04",
+            "rgb":"209, 195, 190",
+            "pantone_name":"Warm Gray 2 C"
+         },
+         {  
+            "c_name":"grey",
+            "hex":"8a837e",
+            "text_color":"white",
+            "cmyk":"0.00, 5.07, 8.70, 45.88",
+            "rgb":"138, 131, 126",
+            "pantone_name":"403 C"
+         },
+         {  
+            "c_name":"saddlebrown",
+            "hex":"742c31",
+            "text_color":"white",
+            "cmyk":"0.00, 62.07, 57.76, 54.51",
+            "rgb":"116, 44, 49",
+            "pantone_name":"188 C"
+         },
+         {  
+            "c_name":"indianred",
+            "hex":"be494f",
+            "text_color":"white",
+            "cmyk":"0.00, 61.58, 58.42, 25.49",
+            "rgb":"190, 73, 79",
+            "pantone_name":"2033 C"
+         },
+         {  
+            "c_name":"lightcoral",
+            "hex":"e97579",
+            "text_color":"white",
+            "cmyk":"0.00, 49.79, 48.07, 8.63",
+            "rgb":"233, 117, 121",
+            "pantone_name":"2030 C"
+         }
+      ],
+      "name":"socks",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=d1c3be%3B8a837e%3B742c31%3Bbe494f%3Be97579%3B",
+      "flat_hex":[  
+         "d1c3be",
+         "8a837e",
+         "742c31",
+         "be494f",
+         "e97579"
+      ]
+   },
+   {  
+      "src":"speaker.jpg",
+      "color_data":[  
+         {  
+            "c_name":"darkslategray",
+            "hex":"3e3d3e",
+            "text_color":"white",
+            "cmyk":"0.00, 1.61, 0.00, 75.69",
+            "rgb":"62, 61, 62",
+            "pantone_name":"446 C"
+         },
+         {  
+            "c_name":"black",
+            "hex":"161517",
+            "text_color":"white",
+            "cmyk":"4.35, 8.70, 0.00, 90.98",
+            "rgb":"22, 21, 23",
+            "pantone_name":"Black 6 C"
+         },
+         {  
+            "c_name":"lightgray",
+            "hex":"d2d3cf",
+            "text_color":"black",
+            "cmyk":"0.47, 0.00, 1.90, 17.25",
+            "rgb":"210, 211, 207",
+            "pantone_name":"Cool Gray 2 C"
+         },
+         {  
+            "c_name":"lightslategrey",
+            "hex":"949595",
+            "text_color":"white",
+            "cmyk":"0.67, 0.00, 0.00, 41.57",
+            "rgb":"148, 149, 149",
+            "pantone_name":"7538 C"
+         },
+         {  
+            "c_name":"dimgrey",
+            "hex":"686869",
+            "text_color":"white",
+            "cmyk":"0.95, 0.95, 0.00, 58.82",
+            "rgb":"104, 104, 105",
+            "pantone_name":"Cool Gray 10 C"
+         }
+      ],
+      "name":"speaker",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=3e3d3e%3B161517%3Bd2d3cf%3B949595%3B686869%3B",
+      "flat_hex":[  
+         "3e3d3e",
+         "161517",
+         "d2d3cf",
+         "949595",
+         "686869"
+      ]
+   },
+   {  
+      "src":"suit.jpg",
+      "color_data":[  
+         {  
+            "c_name":"lavender",
+            "hex":"e9eceb",
+            "text_color":"black",
+            "cmyk":"1.27, 0.00, 0.42, 7.45",
+            "rgb":"233, 236, 235",
+            "pantone_name":"663 C"
+         },
+         {  
+            "c_name":"darkgray",
+            "hex":"9a9ea3",
+            "text_color":"white",
+            "cmyk":"5.52, 3.07, 0.00, 36.08",
+            "rgb":"154, 158, 163",
+            "pantone_name":"422 C"
+         },
+         {  
+            "c_name":"dimgrey",
+            "hex":"666364",
+            "text_color":"white",
+            "cmyk":"0.00, 2.94, 1.96, 60.00",
+            "rgb":"102, 99, 100",
+            "pantone_name":"2334 C"
+         },
+         {  
+            "c_name":"darkslategray",
+            "hex":"3d3838",
+            "text_color":"white",
+            "cmyk":"0.00, 8.20, 8.20, 76.08",
+            "rgb":"61, 56, 56",
+            "pantone_name":"Black 7 C"
+         },
+         {  
+            "c_name":"black",
+            "hex":"161211",
+            "text_color":"white",
+            "cmyk":"0.00, 18.18, 22.73, 91.37",
+            "rgb":"22, 18, 17",
+            "pantone_name":"Black 6 C"
+         }
+      ],
+      "name":"suit",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=e9eceb%3B9a9ea3%3B666364%3B3d3838%3B161211%3B",
+      "flat_hex":[  
+         "e9eceb",
+         "9a9ea3",
+         "666364",
+         "3d3838",
+         "161211"
+      ]
+   },
+   {  
+      "src":"sweater.jpg",
+      "color_data":[  
+         {  
+            "c_name":"darkgray",
+            "hex":"b5b4af",
+            "text_color":"white",
+            "cmyk":"0.00, 0.55, 3.31, 29.02",
+            "rgb":"181, 180, 175",
+            "pantone_name":"421 C"
+         },
+         {  
+            "c_name":"darkslategray",
+            "hex":"553655",
+            "text_color":"white",
+            "cmyk":"0.00, 36.47, 0.00, 66.67",
+            "rgb":"85, 54, 85",
+            "pantone_name":"7659 C"
+         },
+         {  
+            "c_name":"gainsboro",
+            "hex":"dbdcd3",
+            "text_color":"black",
+            "cmyk":"0.45, 0.00, 4.09, 13.73",
+            "rgb":"219, 220, 211",
+            "pantone_name":"Cool Gray 1 C"
+         },
+         {  
+            "c_name":"dimgrey",
+            "hex":"7b5b7a",
+            "text_color":"white",
+            "cmyk":"0.00, 26.02, 0.81, 51.76",
+            "rgb":"123, 91, 122",
+            "pantone_name":"5135 C"
+         },
+         {  
+            "c_name":"darkslategray",
+            "hex":"351b37",
+            "text_color":"white",
+            "cmyk":"3.64, 50.91, 0.00, 78.43",
+            "rgb":"53, 27, 55",
+            "pantone_name":"7449 C"
+         }
+      ],
+      "name":"sweater",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=b5b4af%3B553655%3Bdbdcd3%3B7b5b7a%3B351b37%3B",
+      "flat_hex":[  
+         "b5b4af",
+         "553655",
+         "dbdcd3",
+         "7b5b7a",
+         "351b37"
+      ]
+   },
+   {  
+      "src":"ties.jpg",
+      "color_data":[  
+         {  
+            "c_name":"dimgrey",
+            "hex":"5d6c84",
+            "text_color":"white",
+            "cmyk":"29.55, 18.18, 0.00, 48.24",
+            "rgb":"93, 108, 132",
+            "pantone_name":"2166 C"
+         },
+         {  
+            "c_name":"gainsboro",
+            "hex":"e1e0da",
+            "text_color":"black",
+            "cmyk":"0.00, 0.44, 3.11, 11.76",
+            "rgb":"225, 224, 218",
+            "pantone_name":"664 C"
+         },
+         {  
+            "c_name":"darkgray",
+            "hex":"909caa",
+            "text_color":"white",
+            "cmyk":"15.29, 8.24, 0.00, 33.33",
+            "rgb":"144, 156, 170",
+            "pantone_name":"2163 C"
+         },
+         {  
+            "c_name":"black",
+            "hex":"13192e",
+            "text_color":"white",
+            "cmyk":"58.70, 45.65, 0.00, 81.96",
+            "rgb":"19, 25, 46",
+            "pantone_name":"7547 C"
+         },
+         {  
+            "c_name":"darkslategray",
+            "hex":"37415b",
+            "text_color":"white",
+            "cmyk":"39.56, 28.57, 0.00, 64.31",
+            "rgb":"55, 65, 91",
+            "pantone_name":"2379 C"
+         }
+      ],
+      "name":"ties",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=5d6c84%3Be1e0da%3B909caa%3B13192e%3B37415b%3B",
+      "flat_hex":[  
+         "5d6c84",
+         "e1e0da",
+         "909caa",
+         "13192e",
+         "37415b"
+      ]
+   },
+   {  
+      "src":"union.jpg",
+      "color_data":[  
+         {  
+            "c_name":"midnightblue",
+            "hex":"0c1c54",
+            "text_color":"white",
+            "cmyk":"85.71, 66.67, 0.00, 67.06",
+            "rgb":"12, 28, 84",
+            "pantone_name":"2766 C"
+         },
+         {  
+            "c_name":"darkgray",
+            "hex":"ab9f99",
+            "text_color":"white",
+            "cmyk":"0.00, 7.02, 10.53, 32.94",
+            "rgb":"171, 159, 153",
+            "pantone_name":"Warm Gray 5 C"
+         },
+         {  
+            "c_name":"lightgray",
+            "hex":"cfd1cd",
+            "text_color":"black",
+            "cmyk":"0.96, 0.00, 1.91, 18.04",
+            "rgb":"207, 209, 205",
+            "pantone_name":"Cool Gray 2 C"
+         },
+         {  
+            "c_name":"firebrick",
+            "hex":"b71707",
+            "text_color":"white",
+            "cmyk":"0.00, 87.43, 96.17, 28.24",
+            "rgb":"183, 23, 7",
+            "pantone_name":"2350 C"
+         },
+         {  
+            "c_name":"darkslateblue",
+            "hex":"254991",
+            "text_color":"white",
+            "cmyk":"74.48, 49.66, 0.00, 43.14",
+            "rgb":"37, 73, 145",
+            "pantone_name":"7686 C"
+         }
+      ],
+      "name":"union",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=0c1c54%3Bab9f99%3Bcfd1cd%3Bb71707%3B254991%3B",
+      "flat_hex":[  
+         "0c1c54",
+         "ab9f99",
+         "cfd1cd",
+         "b71707",
+         "254991"
+      ]
+   },
+   {  
+      "src":"wing.jpg",
+      "color_data":[  
+         {  
+            "c_name":"sienna",
+            "hex":"a0671c",
+            "text_color":"white",
+            "cmyk":"0.00, 35.62, 82.50, 37.25",
+            "rgb":"160, 103, 28",
+            "pantone_name":"7512 C"
+         },
+         {  
+            "c_name":"darkkhaki",
+            "hex":"bca67f",
+            "text_color":"white",
+            "cmyk":"0.00, 11.70, 32.45, 26.27",
+            "rgb":"188, 166, 127",
+            "pantone_name":"7521 C"
+         },
+         {  
+            "c_name":"peru",
+            "hex":"c4a24d",
+            "text_color":"white",
+            "cmyk":"0.00, 17.35, 60.71, 23.14",
+            "rgb":"196, 162, 77",
+            "pantone_name":"7407 C"
+         },
+         {  
+            "c_name":"darkgoldenrod",
+            "hex":"ae7a28",
+            "text_color":"white",
+            "cmyk":"0.00, 29.89, 77.01, 31.76",
+            "rgb":"174, 122, 40",
+            "pantone_name":"7511 C"
+         },
+         {  
+            "c_name":"peru",
+            "hex":"b88d37",
+            "text_color":"white",
+            "cmyk":"0.00, 23.37, 70.11, 27.84",
+            "rgb":"184, 141, 55",
+            "pantone_name":"7510 C"
+         }
+      ],
+      "name":"wing",
+      "shutter_link":"https://www.shutterstock.com/labs/palette/?image_type=photo&keyword=&colors=a0671c%3Bbca67f%3Bc4a24d%3Bae7a28%3Bb88d37%3B",
+      "flat_hex":[  
+         "a0671c",
+         "bca67f",
+         "c4a24d",
+         "ae7a28",
+         "b88d37"
+      ]
+   }
+]

@@ -1,23 +1,45 @@
 <div class="item-container">
-	<img class="item-img" ng-src="img_squared/{{curPhoto.src}}">
+	<!-- Image Container -->
+	<div class="item-img" style="background-image:url('img_squared/{{curPhoto.src}}')">
+		<a class="button home hide-desktop" href="#/" title="home screen">
+			<i class="fa fa-th" aria-hidden="true"></i>
+		</a>
+		<div class="buttons">
+			<div ng-click="prevPhoto()" class="button">
+				<i class="fa fa-step-backward" aria-hidden="true"></i>
+			</div>
+			<div ng-click="randomPhoto()" class="button shuffle">
+				<i class="fa fa-random" aria-hidden="true"></i>
+			</div>
+			<div ng-click="nextPhoto()" class="button">
+				<i class="fa fa-step-forward" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+	<!-- Title bar -->
 	<div class="title">
 		<div class="title-inner">
 			<h1>{{curPhoto.name}}</h1>
 		</div>
+		<!-- inline hover effects workaround -->
+		<div class="color-search" style="background:#{{curPhoto.flat_hex[0]}}">
+			<a class="color-search-inner" href="{{curPhoto.shutter_link}}" target="_blank" title="images with similar color pallettes">
+				<i class="fa fa-camera-retro" aria-hidden="true"></i>
+			</a>
+		</div>
 	</div>
-	<div class="colors" style="background: {{grads[pindex]}}"></div>
-
+	<!-- Striped background shown on desktop -->
+	<div class="color-grad" style="background: {{grads[pindex]}}">
+		<a class="button home" href="#/" title="home screen">
+			<i class="fa fa-th" aria-hidden="true"></i>
+		</a>
+	</div>
+	<!-- Grid / rows of color shown on tablet / mobile -->
+	<div class="color-reps hide-desktop">
+		<div class="color" ng-repeat="color in curPhoto.color_data | orderBy:'-'" style="background-color:#{{color.hex}}">
+			<p style="color:{{color.text_color}}">{{color.pantone_name}}<br>#{{color.hex}}</p>
+		</div>
+	</div>
+</div>
 
 		
-		<div class="buttons">
-			<div ng-click="prevPhoto()" class="button">
-				<i class="fa fa-angle-left" aria-hidden="true"></i>
-			</div>
-			<div ng-click="randomPhoto()" class="button shuffle">
-				<i class="fa fa-angle-right" aria-hidden="true"></i>
-				<i class="fa fa-angle-left" aria-hidden="true"></i>
-			</div>
-			<div ng-click="nextPhoto()" class="button">
-				<i class="fa fa-angle-right" aria-hidden="true"></i>
-			</div>
-		</div>

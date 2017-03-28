@@ -1,10 +1,41 @@
 <div class="home-container">
+	<div class="header">
+		<div class="background">
+			<div class="bg-block" ng-repeat="color in hexes" style="background:#{{color}}">
+			</div>
+		</div>
+		<div class="header-center">
+			<h1>Real Life Colors</h1>
+			<span>(24 bits)</span>
+		</div>
+	</div>
 	<div class="content-width">
-		<div class="grid">
-			<div class="sq-3" ng-repeat="photo in photos">
-				<a class="sq-content" ng-click="directLink($index);"
-				style="background: {{grads[$index]}}">
-				</a>
+		<div class="chip-grid" id="chips">
+			<div class="chip" ng-repeat="photo in photos">
+				<div class="chip-inner" ng-click="directLink($index);">
+					<div class="bar-container">
+						<div class="bar" ng-repeat="color in photo.color_data" style="background-color:#{{color.hex}}; color:{{color.text_color}}">
+							<table>
+								<tr>
+									<td>Pantone</td>
+									<td>{{color.pantone_name}}</td>
+								</tr>
+								<tr>
+									<td>rgb</td>
+									<td>{{color.rgb}}</td>
+								</tr>
+								<tr>
+									<td>hex</td>
+									<td>#{{color.hex}}</td>
+								</tr>
+								<tr>
+									<td>CMYK</td>
+									<td>{{color.cmyk}}</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
