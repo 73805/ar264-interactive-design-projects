@@ -1,0 +1,328 @@
+{
+   "locations": {
+      "newmexico": {
+         "cname" : "newmexico",
+         "text":{
+            "title":{
+               "park":"Enchanted Mesa",
+               "state":"New Mexico"
+            },
+            "colors":{
+               "title":{
+                  "park":"#99563C",
+                  "state":"#CC7350"
+               },
+               "ctrlcolors":{
+                  "day": "#EFCD8B",
+                  "night":"#564A2B",
+                  "currentbg":"#BC6551",
+                  "currenttxt":"#4C2727",
+                  "spring":"#C1D1D3",
+                  "winter":"#32373B",
+                  "panel":"#ffffff"
+               }
+            }
+         },
+         "landscapes": {
+            "spring": "nm-yellow.png",
+            "winter": "nm-yellow.png"
+         },
+         "loc": "34.921078,-107.551133",
+         "cloudPos":{
+            "left": "68vw",
+            "top": "5vh"
+         },
+         "objects": [{
+            "fn": "cactus.png",
+            "left": "6vw",
+            "right": "",
+            "top": "",
+            "bottom": "2vh",
+            "width" : "320px",
+            "zindex" : "3",
+            "remove" : []
+            }, {
+            "fn": "cactus-flower.png",
+            "left": "6vw",
+            "right": "",
+            "top": "",
+            "bottom": "2vh",
+            "width" : "320px",
+            "zindex" : "3",
+            "remove" : ["winter"]
+            }, {
+            "fn": "bunny.png",
+            "left": "",
+            "right": "4vw",
+            "top": "",
+            "bottom": "1vh",
+            "width" : "180px",
+            "zindex" : "3",
+            "remove" : ["day"]
+            }
+         ],
+         "wt":{
+            "weather":{
+               "sunrise":6.5,
+               "sunset":19.5,
+               "cloudBool":true,
+               "code":30
+            },
+            "season":"spring",
+            "time":11.5
+         }
+      },
+      "yosemite": {
+         "cname" : "yosemite",
+         "text":{
+            "title":{
+               "park":"Yosemite",
+               "state":"California"
+            },
+            "colors":{
+               "title":{
+                  "park":"#22352D",
+                  "state":"#275242"
+               },
+               "ctrlcolors":{
+                  "day": "#FCF27A",
+                  "night":"#4F492A",
+                  "currentbg":"#C6827B",
+                  "currenttxt":"#4B2626",
+                  "spring":"#97C2C4",
+                  "winter":"#32373B",
+                  "panel":"#ffffff"
+               }
+            }
+         },
+         "landscapes": {
+            "spring": "yosemite.png",
+            "winter": "yosemite-winter.png"
+         },
+         "loc": "37.736310,-119.637339",
+         "cloudPos":{
+            "left": "23vw",
+            "top": "5vh"
+         },
+         "objects": [
+            {
+               "fn": "bear.png",
+               "left": "",
+               "right": "8vw",
+               "top": "",
+               "bottom": "2vh",
+               "width" : "220px",
+               "zindex" : "3",
+               "remove" : ["winter"]
+            },
+            {
+               "fn": "osprey.png",
+               "left": "10vw",
+               "right": "",
+               "top": "24vh",
+               "bottom": "",
+               "width" : "470px",
+               "zindex" : "3",
+               "transform":"scale(-1,1)",
+               "remove" : ["night"]
+            }
+         ],
+         "wt":{
+            "weather":{
+               "sunrise":6.5,
+               "sunset":19.5,
+               "cloudBool":true,
+               "code":30
+            },
+            "season":"spring",
+            "time":14
+         }
+      },
+      "vermont": {
+         "cname" : "vermont",
+         "text":{
+            "title":{
+               "park":"Arlington River",
+               "state":"Vermont"
+            },
+            "colors":{
+               "title":{
+                  "park":"#BF7C62",
+                  "state":"#A35454"
+               },
+               "ctrlcolors":{
+                  "day": "#F4D376",
+                  "night":"#564A2B",
+                  "currentbg":"#C96563",
+                  "currenttxt":"#4C2727",
+                  "spring":"#C8DDED",
+                  "winter":"#32373B",
+                  "panel":"#ffffff"
+               }
+            }
+         },
+         "landscapes": {
+            "spring": "vermont-spring.png",
+            "winter": "vermont-winter.png"
+         },
+         "loc": "43.074134,-73.160735",
+         "cloudPos":{
+            "left": "10vw",
+            "top": "-1vh"
+         },
+         "objects": [
+            {
+               "fn": "deer.png",
+               "left": "10vw",
+               "right": "",
+               "top": "",
+               "bottom": "34vh",
+               "width" : "340px",
+               "zindex" : "2",
+               "transform":"scale(-1,1)",
+               "remove" : []
+            },
+            {
+               "fn": "deer-antlers.png",
+               "left": "10vw",
+               "right": "",
+               "top": "",
+               "bottom": "34vh",
+               "width" : "340px",
+               "zindex" : "1",
+               "transform":"scale(-1,1)",
+               "remove" : ["winter"]
+            },
+            {
+               "fn": "bat.png",
+               "left": "30vw",
+               "right": "",
+               "top": "-8vh",
+               "bottom": "",
+               "width" : "370px",
+               "zindex" : "1",
+               "remove" : ["day"]
+            }
+         ],
+         "wt":{
+            "weather":{
+               "sunrise":6.5,
+               "sunset":19.5,
+               "cloudBool":true,
+               "code":30
+            },
+            "season":"spring",
+            "time":14
+         }
+      },
+      "newyork": {
+         "cname" : "newyork",
+         "text":{
+            "title":{
+               "park":"New York",
+               "state":"New York"
+            },
+            "colors":{
+               "title":{
+                  "park":"#22352D",
+                  "state":"#275242"
+               },
+               "ctrlcolors":{
+                  "day": "#E2BB81",
+                  "night":"#564A2B",
+                  "currentbg":"#BA756C",
+                  "currenttxt":"#452222",
+                  "spring":"#BAC6D3",
+                  "winter":"#32373B",
+                  "panel":"#ffffff"
+               }
+            }
+         },
+         "landscapes": {
+            "spring": "newyork.png",
+            "winter": "newyork.png"
+         },
+         "loc": "40.768785,-73.982843",
+         "cloudPos":{
+            "left": "23vw",
+            "top": "5vh"
+         },
+         "objects": [
+            {
+               "fn": "business-man.png",
+               "left": "41vw",
+               "right": "",
+               "top": "",
+               "bottom": "3vh",
+               "width" : "240px",
+               "zindex" : "3",
+               "remove" : ["night"]
+            },
+            {
+               "fn": "business-man-coat.png",
+               "left": "41vw",
+               "right": "",
+               "top": "",
+               "bottom": "3vh",
+               "width" : "240px",
+               "zindex" : "3",
+               "remove" : ["night", "spring"]
+            },
+            {
+               "fn": "business-man.png",
+               "left": "70vw",
+               "right": "",
+               "top": "",
+               "bottom": "3vh",
+               "width" : "240px",
+               "zindex" : "3",
+               "transform" : "scale(-1, 1)",
+               "remove" : ["day"]
+            },
+            {
+               "fn": "business-man-coat.png",
+               "left": "70vw",
+               "right": "",
+               "top": "",
+               "bottom": "3vh",
+               "width" : "240px",
+               "zindex" : "3",
+               "transform" : "scale(-1, 1)",
+               "remove" : ["day", "spring"]
+            },
+            {
+               "fn": "taxi.png",
+               "left": "",
+               "right": "10vw",
+               "top": "",
+               "bottom": "0vh",
+               "width" : "730px",
+               "zindex" : "4",
+               "transform" : "",
+               "remove" : ["night"]
+            },
+            {
+               "fn": "taxi.png",
+               "left": "6vw",
+               "right": "",
+               "top": "",
+               "bottom": "0vh",
+               "width" : "730px",
+               "zindex" : "4",
+               "transform" : "scale(-1, 1)",
+               "remove" : ["day"]
+            }
+         ],
+         "wt":{
+            "weather":{
+               "sunrise":6.5,
+               "sunset":19.5,
+               "cloudBool":true,
+               "code":30
+            },
+            "season":"spring",
+            "time":12.5
+         }
+      }
+   }
+}

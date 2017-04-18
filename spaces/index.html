@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<!-- meta tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta charset="UTF-8">
+	<!-- scripts -->
+		<!-- jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- Weather Library -->
+	<script src="https://cdn.rawgit.com/monkeecreate/jquery.simpleWeather/master/jquery.simpleWeather.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script src="script.js"></script>
+	<script src="https://use.fontawesome.com/4b64fad53e.js"></script>
+	<!-- styles -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>Weathering</title>
+</head>
+<body ng-controller="mainController">
+	<div class="scene-container">
+
+		<!-- HOME SCREEN AND MOBILE WARNING -->
+
+		<!-- Come back on desktop! -->
+		<div class="menu mobile-warning">
+			<div class="links">
+				<div><h2>Please visit on desktop!</h2></div>
+			</div>
+		</div>
+
+		<!-- 'Homescreen' as an overlay -->
+		<div class="menu">
+			<div class="links">
+				<div><h2 ng-click="changePlace('newmexico');">New Mexico</h2></div>
+				<div><h2 ng-click="changePlace('yosemite');">California</h2></div>
+				<div><h2 ng-click="changePlace('vermont');">Vermont</h2></div>
+				<div><h2 ng-click="changePlace('newyork');">New York</h2></div>
+			</div>
+		</div>
+
+		<!-- TEXT AND CONTROL COMPONENTS -->
+
+		<!-- Postcard text for each location -->
+		<div class="text">
+			<h1>
+				<span style="color: {{env.text.colors.title.park}}" class="park">{{env.text.title.park}},</span><br>
+				<span style="color: {{env.text.colors.title.state}}" class="state">{{env.text.title.state}}</span>
+			</h1>
+		</div>
+		<!-- slide-out control panel -->
+		<div class="control-panel">
+			<div class="controls-inner" style="background: {{env.text.colors.ctrlcolors.panel}};">
+				<!-- slide out signifier -->
+				<div class="control-button">
+					<img src="assets/signifier-white.png" alt="open controls">
+				</div>
+				<!-- day/night control -->
+				<div class="circle tod {{env.wt.sunPos.dayOrNight}}">
+					<!-- aesthetic fx overlays and semi-circular buttons -->
+					<div class="circfx" style="background:linear-gradient({{env.text.colors.ctrlcolors.night}} 50%, {{env.text.colors.ctrlcolors.day}} 50%)"></div>
+					<div class="circfx over" style="background:linear-gradient({{env.text.colors.ctrlcolors.panel}} 50%, transparent 50%)"></div>
+					
+					<div class="half-vert upper day" style="color: {{env.text.colors.ctrlcolors.night}}; background: {{env.text.colors.ctrlcolors.day}};" ng-click="changeTime('day');">
+						<h2>day</h2>
+					</div>
+					<div class="half-vert lower night" style="color: {{env.text.colors.ctrlcolors.day}}; background: {{env.text.colors.ctrlcolors.night}};" ng-click="changeTime('night');">
+						<h2>night</h2>
+					</div>
+				</div>
+				<!-- go live control -->
+				<div class="circle live golive">
+					<!-- aesthetic fx overlays and full-circle buttons -->
+					<div class="circfx" style="background:{{env.text.colors.ctrlcolors.currenttxt}}"></div>
+					<div class="circfx over one" style="background:linear-gradient(90deg, {{env.text.colors.ctrlcolors.panel}} 50%, transparent 50%)"></div>
+					<div class="circfx over two" style="background:linear-gradient(90deg, transparent 50%, {{env.text.colors.ctrlcolors.panel}} 50%)"></div>
+
+					<div class="full" style="color: {{env.text.colors.ctrlcolors.currenttxt}}; background: {{env.text.colors.ctrlcolors.currentbg}};" ng-click="goLive();">
+						<h2>current<br>conditions</h2>
+					</div>
+				</div>
+				<!-- spring/winter control -->
+				<div class="circle season {{env.wt.season}}">
+					<!-- aesthetic fx overlays and semi-circular buttons -->
+					<div class="circfx" style="background:linear-gradient(90deg, {{env.text.colors.ctrlcolors.winter}} 50%, {{env.text.colors.ctrlcolors.spring}} 50%)"></div>
+					<div class="circfx over" style="background:linear-gradient(90deg, {{env.text.colors.ctrlcolors.panel}} 50%, transparent 50%)"></div>
+					
+					<div class="half-horz left spring" style="color: {{env.text.colors.ctrlcolors.winter}}; background: {{env.text.colors.ctrlcolors.spring}};" ng-click="changeSeason('spring');">
+						<h2>spring</h2>
+					</div>
+					<div class="half-horz right winter" style="color: {{env.text.colors.ctrlcolors.spring}}; background: {{env.text.colors.ctrlcolors.winter}};" ng-click="changeSeason('winter');">
+						<h2>winter</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- menu button to open the 'homescreen' overlay -->
+		<i class="fa fa-bars go-menu hide" aria-hidden="true"></i>
+
+		<!-- SCENERY COMPONENTS -->
+
+		<!-- Sky - Lowest layer in the scene. Changes night, day, sunset, sunrise -->
+		<div class="sky background" style="background:{{env.wt.skyDrop}}"></div>
+
+		<!-- Sun element - positioned using vars in the env -->
+		<div class="sun" style="left:{{env.wt.sunPos.left}}px;bottom:{{env.wt.sunPos.bottom}}px"></div>
+
+		<!-- cloud element - conditionally displayed and positioned by vars in the env object -->
+		<img class="cloud {{env.wt.cloudBool ? '' : 'hide' }}" ng-src="assets/cloud.png" style="left:{{env.cloudPos.left}};top:{{env.cloudPos.top}};">
+		
+		<!-- Sky overlay - sits on top of the sky elements and darkens for snow/rain -->
+		<div class="sky skyoverlay" style="background:{{env.wt.skyOverlay}}"></div>
+
+		<!-- Landscape Foreground - changed based on season -->
+		<div class="landscape {{env.cname}}" style="background-image:url('assets/{{env.landscape}}')"></div>
+
+		<!-- Props - Repeater to display environment props (filtered internally) -->
+		<img class="obj" ng-repeat="obj in env.filteredObjects" ng-src="assets/{{obj.fn}}" alt="" style="left:{{obj.left}}; right:{{obj.right}}; top:{{obj.top}}; bottom:{{obj.bottom}}; width:{{obj.width}}; z-index:{{obj.zindex}}; transform:{{obj.transform}};">
+
+		<!-- Weather Effects - top-most layer for snow/rain drops -->
+		<div class="sky weather-effects" style="background-image:url('assets/{{env.wt.precip}}')"></div>
+
+		<!-- debugging data readout (hidden) -->
+		<div class="data">
+			loc<br>
+			{{env.loc}}<br>
+			
+			season<br>
+			{{env.wt.season}}<br>
+
+			weather code<br>
+			{{env.wt.weather.code}}<br>
+
+			sunrise<br>
+			{{env.wt.weather.sunrise}}<br>
+
+			sunset<br>
+			{{env.wt.weather.sunset}}<br>
+
+			local time<br>
+			{{env.wt.time}}<br>
+		</div>
+
+	</div>
+</body>
+</html>

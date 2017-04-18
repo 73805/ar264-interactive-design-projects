@@ -1,0 +1,403 @@
+/* Importing Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+@font-face {
+  font-family: 'escafina';
+  src: url('font/escafina-low-webfont.woff2') format('woff2'), 
+       url('font/escafina-low-webfont.woff') format('woff'); 
+}
+@font-face {
+  font-family: 'majesti-heavy';
+  src: url('font/Majesti-Banner-Heavy.otf') format('opentype'); 
+}
+@font-face {
+  font-family: 'majesti-book';
+  src: url('font/Majesti-Banner-Book.otf') format('opentype'); 
+}
+/*  CSS Reset 
+	Overwrites defaults to normalize styles
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+	box-sizing:border-box;
+}
+p{
+	font-family: 'Roboto';
+}
+/* End CSS Reset */
+
+/* BEGIN CUSTOM STYLES*/
+body{
+	width:100%;
+	height:100vh;
+	overflow:hidden;
+}
+*::selection{
+	
+}
+.scene-container{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.data{
+	position:absolute;
+	background:white;
+	top:0;
+	right:0;
+	/*developer mode!*/
+	display:none;
+}
+.menu{
+	width:100%;
+	height:100%;
+	z-index:100;
+	background:#AEBA79;
+	position:relative;
+}
+.links div{
+	text-align:center;
+}
+.menu h2{
+	font-size:120px;
+	line-height:120px;
+	display:inline-block;
+	padding:40px;
+	text-align:center;
+	color:rgb(240,240,240);
+	font-family:'escafina';
+	cursor:pointer;
+	position:relative;
+	transition: all.2s ease-in-out;
+}
+.menu h2:hover{
+	color:#954F3E;
+}
+.menu h2:hover:after{
+	max-width: 450px;
+	max-height: 3px;
+	background:#954F3E;
+}
+.menu h2:after{
+	display: block;
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+	max-height: 2px;
+	max-width: 40px;
+	background:white;
+	transition: all .2s ease-in-out;
+}
+.go-menu{
+	font-size:60px;
+	display:inline-block;
+	padding:17px;
+	line-height:44px;
+	text-align:center;
+	position:absolute;
+	top:20px;
+	right:22px;
+	cursor:pointer;
+	z-index:100;
+	color:white;
+}
+.links{
+	position:absolute;
+	top:50%;
+	width:100%;
+	transform:translateY(-50%);
+}
+.sky, .landscape{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	background-size:cover;
+}
+.sky.background{
+	background:#A5C9D6;
+}
+.sky.skyoverlay{
+	background:transparent;
+	opacity:.8;
+}
+.sky.weather-effects{
+	z-index:10;
+}
+.landscape{
+	background-position:center;
+	z-index:1;
+}
+.landscape.newyork{
+	background-position:center calc(100vh + 1px);
+}
+.landscape.vermont{
+	background-position:left center;
+}
+.sun{
+	position:absolute;
+	width:180px;
+	height:180px;
+	border-radius:50%;
+	background:#FCF27A;
+	/*seperate transition speeds?*/
+	transition: all .3s ease-in-out;
+}
+.cloud{
+	position:absolute;
+	display:inline-block;
+	width:320px;
+	height:auto;
+	transition: all .3s ease-in-out;
+}
+.hide{
+	display:none;
+}
+.obj{
+	position:absolute;
+	display:inline-block;
+}
+.cloud{
+	width:300px;
+	height:auto;
+	top:5vh;
+	left:10vw;
+}
+.text{
+	position:absolute;
+	height:auto;
+	top:40px;
+	left:70px;
+	z-index:20;
+}
+.control-panel{
+	width:860px;
+	padding:40px;
+	position:absolute;
+	right:-840px;
+	top:50%;
+	transform: translateY(-50%);
+	background:white;
+	z-index:97;
+	box-shadow: -4px 5px 6px -5px #000000;
+	transition:all .2s ease-in-out;
+
+}
+.control-panel.pullout{
+	right:-40px;
+}
+.controls-inner{
+	width:100%;
+	padding:20px;
+	text-align:center;
+	background:#F4ED95;
+	position:relative;
+	display: flex;
+	justify-content: space-around;
+}
+.control-button{
+	display: inline-block;
+	height:75px;
+	width:75px;
+	position: absolute;
+	top: 50%;
+	transform:translateY(-50%);
+	left: -140px;
+	cursor: pointer;
+}
+.control-button img{
+	width:100%;
+	height:auto;
+}
+.circle{
+	display:inline-block;
+	width:210px;
+	height:210px;
+	border-radius:50%;
+	font-size:0px;
+	background:white;
+	cursor:pointer;
+	position:relative;
+	z-index:2;
+}
+.circfx{
+	position:absolute;
+	width:218px;
+	height:218px;
+	left:-4px;
+	top:-4px;
+	z-index:1;
+	border-radius: 50%;
+}
+.circfx.over{
+	position:absolute;
+	width:220px;
+	height:220px;
+	left:-5px;
+	top:-5px;
+	z-index:2;
+	transition: all 1s ease-in-out;
+}
+.circle.day .circfx.over{
+	transform:rotate(540deg);
+}
+.circle.spring .circfx.over{
+	transform:rotate(540deg);
+}
+.live.goinglive .circfx.over.one{
+	animation: rotato 1.25s 1;
+}
+.live.goinglive .circfx.over.two{
+	animation: rotato .75s 1;
+}
+@keyframes rotato{
+	0%{transform:rotate(0deg);}
+	50%{otransform:rotate(180deg);}
+	100%{transform:rotate(360deg);}
+}
+.circle h2{
+	font-size:32px;
+	line-height:30px;
+	text-transform:lowercase;
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	display:block;
+	width:100%;
+	text-align:center;
+	font-family:'majesti-book';
+}
+.half-vert.upper{
+	border-top-left-radius: 105px;
+	border-top-right-radius: 105px;
+}
+.half-vert.lower{
+	border-bottom-left-radius: 105px;
+	border-bottom-right-radius: 105px;
+}
+.half-horz.left{
+	border-top-left-radius: 105px;
+	border-bottom-left-radius: 105px;
+}
+.half-horz.right{
+	border-top-right-radius: 105px;
+	border-bottom-right-radius: 105px;
+}
+.full{
+	border-radius:50%;
+}
+.half-vert, .half-horz, .full{
+	position:relative;
+	display:inline-block;
+	z-index:3;
+	transition: opacity .2s ease-in-out;
+}
+.half-vert{
+	width:100%;
+	height:50%;
+	line-height:105px;
+}
+.half-horz{
+	width:105px;
+	height:210px;
+	line-height:210px;
+}
+.full{
+	width:100%;
+	height:100%;
+	color:#634A4E;
+	background:#E5A4AA;
+	font-family:'majesti-heavy';
+	font-weight:600;
+}
+.tod .day{
+	color:#75746B;
+	background:#F4ED95;
+}
+.tod .night{
+	color:#F4ED95;
+	background:#75746B;
+}
+.season .spring{
+	color:#6A7E84;
+	background:#BDE2E9;
+}
+.season .winter{
+	color:#BDE2E9;
+	background:#6A7E84;
+}
+h1{
+	padding-top:16px;
+	font-size:62px;
+	font-family:'escafina';
+}
+h1 .state{
+	font-size:126px;
+}
+.mobile-warning{
+	display:none;
+	background:#c55e5e;
+}
+/* Responsive is not recommended... */
+@media screen and (max-width: 900px){
+	.mobile-warning{
+		z-index:101;
+		display:block;
+	}
+}
+@media screen and (max-width: 600px){
+	.mobile-warning h2{
+		font-size:60px;
+		line-height:60px;
+	}
+}
