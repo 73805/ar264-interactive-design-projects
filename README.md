@@ -3,6 +3,9 @@ A handful of projects developed for Skidmore's Interactive Design class.
 
 Projects were defined by an artistic concept and a technological focus (ex: found text + hyperlinking). Projects explored digital interaction and the web as a medium for art.
 
+### Project 5: [Scroll](https://www.skidmore.edu/academics/ar264/sobel_kuo/)
+Collaborating with a classmate to create a 'factivist' parallax scroll experience.
+Tracing the invention and current uses of Cathode Ray Tube Televisions.
 ### Project 4: [Spaces](https://www.skidmore.edu/academics/ar264/sobel_tyler/)
 Collaborating with a classmate to create a space with interactive components.
 Presenting four scenes from across the US with live weather and time data.
